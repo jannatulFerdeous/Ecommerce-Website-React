@@ -1,0 +1,59 @@
+.new-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.new-collections h1 {
+    color: #252525;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.new-collections hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+    margin-bottom: 30px;
+}
+
+.new-collections-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px; /* Ensure the width doesn't go beyond a certain limit */
+}
+
+.items-container {
+    position: relative;
+    width: calc(33.33% - 20px); /* Adjust for three items per row with gap */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    text-align: center;
+}
+
+.items-container .rank {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #fc0069;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.items-container img {
+    width: 350px; /* Increase the image size */
+    height: 350px; /* Increase the image size */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

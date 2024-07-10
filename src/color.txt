@@ -1,0 +1,4 @@
+rgb(89, 248, 253)// cyan
+#c4ffb7ef; // light green
+#99dcf9ef
+#0f3546ef

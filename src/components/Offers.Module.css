@@ -1,0 +1,25 @@
+.offer {
+    margin-top: 70px;
+    width: 100%;
+    max-width: 140vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .offer {
+      margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .offer {
+      margin-top: 30px;
+    }
+  }
+  
